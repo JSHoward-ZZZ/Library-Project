@@ -15,6 +15,21 @@ nav {
 .nav__container {
     width: 100%;
     max-width: 1200px;
+    padding: 0 24px;
     display: flex;
+    align-items: center;
+    margin: 0 auto;
     justify-content: space-between;
+}
+
+.logo {
+    width: 190px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
 }
